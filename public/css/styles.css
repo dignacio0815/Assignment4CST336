@@ -1,0 +1,37 @@
+body {
+    background-image: -webkit-linear-gradient(bottom, #a3bded 0%, #6991c7 100%);
+    background-image: -moz-linear-gradient(bottom, #a3bded 0%, #6991c7 100%);
+    background-image: -o-linear-gradient(bottom, #a3bded 0%, #6991c7 100%);
+    background-image: linear-gradient(to top, #a3bded 0%, #6991c7 100%);
+}
+
+nav {
+    position: relative;
+    margin: auto;
+    padding: 0;
+    list-style: none;
+    width: 100%;
+    text-align: center;
+}
+
+img {
+    vertical-align: middle;
+}
+
+.jumbotron {
+    text-align:center;
+}
+
+.paragraph {
+    width:50%;
+}
+
+.container {
+    text-align:center;
+}
+
+.container pre {
+    display:inline-block;
+    text-align:left;
+    font-family: 'Montserrat';
+}

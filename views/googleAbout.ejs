@@ -1,0 +1,34 @@
+<%- include("partials/header.ejs") %>
+        <main>
+            
+            <figure id="me">
+                <img src="img/google.png" alt="Picture of tech logos" />
+            </figure>
+            
+            <div id="googleAbout">
+                <h2>Google's Start</h2>
+                <div class="container">
+    <pre>
+   Google started out in 1995 at Stanford University by Larry Page and Sergey Brin. But before that,
+   it was originally called Backruub. Over some time, they changed it to Google based on the number. 
+   Eventually, more people started to gain interest especially that of high profile Silicon Valley's
+   venture captilasts and firms. Then in 1998, Andy Bechtolsheim wrote the two a check 100 grand; 
+   the name Google had been established and starting spreading like wildfire.
+    </pre>
+    
+    <pre>
+    Today, the term Google is so well known that its become a verb to desribe of searching
+    the internet for info. It had gone through so many different updates but the main message 
+    is there: to enable the ability for anyone to search for anything anywhere. 
+    </pre>
+</div>
+                <img src= <%= data.hits[0].webformatURL %> >
+                <br><br>
+
+            </div>
+        </main>
+        
+        <div class='link'>
+            <a href='https://about.google/intl/en_us/our-story/'>Link to Google's history</a>
+        </div>
+<%- include("partials/footer.ejs"); %>
